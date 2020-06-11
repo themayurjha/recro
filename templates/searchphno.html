@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href={% static 'css/login.css' %}>
+</head>
+<body>
+            <div class='login-block'>
+                <div class='login-wrapper'>
+                    
+                    <form method='POST' action='''>
+                    {% csrf_token %}
+                        <div class='input-box'>
+                            <input type='text' name='phno' placeholder='Enter Phone No to search' required/>
+                        </div>
+                        <input class='login-button' value='submit' type='submit'/>
+                    </form>
+                    <p>{{error}}</p>
+
+                </div>
+            </div></body>
+
+
+</html>

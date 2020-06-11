@@ -1,0 +1,37 @@
+.input-box input {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-color: #dfdfe3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid #bbb;
+}
+
+.input-box input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+}
+
+.input-box {
+    margin-bottom: 30px;
+}
+
+.login-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-button {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    text-align: center;
+    padding: 6px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
